@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo {
+    margin-left: 70px;
+    color: rgb(65, 75, 83);
+    font-size: 20px;
+}
+
+#nav-bar {
+    display: flex;
+    background-color: transparent;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-link {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-link {
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.text-link:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.main-container {
+    background: url("pexels-s-migaj-746386.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 180px;
+}
+
+#spaan {
+    color: rgb(207, 194, 194);
+}
+
+#first-heading {
+    color: rgb(81, 88, 94);
+    font-size: 50px;
+}
+
+#second-head {
+    color: rgb(158, 158, 157);
+    font-size: 60px;
+}
+
+.images {
+    height: 40px;
+    width: 40px;
+}
+
+#social-links {
+    display: flex;
+    gap: 30px;
+}
